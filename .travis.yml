@@ -1,7 +1,9 @@
 language: go
 
 install:
+  - go get github.com/Sirupsen/logrus
   - go get github.com/smartystreets/goconvey
+  - go get github.com/go-fsnotify/fsnotify
 
 go:
   - 1.4
