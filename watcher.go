@@ -8,7 +8,7 @@ import (
 	"time"
 
 	log "github.com/Sirupsen/logrus"
-	"github.com/go-fsnotify/fsnotify"
+  "github.com/fsnotify/fsnotify"
 )
 
 type watcher struct {
